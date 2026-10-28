@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Manual de Bienvenida · Global Burger</title>
+<meta name="description" content="Manual de bienvenida para el equipo de Global Burger G&amp;M C.A.">
+<meta name="theme-color" content="#1b1b1b">
+<link rel="icon" type="image/png" href="assets/logo-celeste.png">
+<link rel="preload" href="assets/Chunk.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/Gotham.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/GothamBook.woff" as="font" type="font/woff" crossorigin>
+<style>@font-face{font-family:'Gotham';src:url(assets/GothamBook.woff) format('woff');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Chunk';src:url(assets/Chunk.woff) format('woff');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Gotham';src:url(assets/Gotham.woff) format('woff');font-weight:900;font-style:normal;font-display:swap}
+body{margin:0}
+.pg{--pad:clamp(20px,7.1vw,56px);width:100%;max-width:794px;margin:0 auto;min-height:1123px;box-sizing:border-box;padding:var(--pad);position:relative;overflow:hidden;font-family:'Gotham',Montserrat,Arial,sans-serif;font-weight:400;color:#1b1b1b;display:flex;flex-direction:column;gap:20px}
+.pg>*{position:relative}
+h1,h2,h3{font-family:'Chunk',Georgia,serif;font-weight:400;margin:0;line-height:1.1}
+h1{font-size:clamp(40px,9.8vw,78px)}h2{font-size:clamp(30px,5.8vw,46px)}h3{font-size:clamp(19px,3.15vw,25px)}
+p{margin:0;font-size:18px;line-height:1.5}
+.tag{font-weight:800;font-size:15px;letter-spacing:.14em;text-transform:uppercase}
+.c{border-radius:22px;padding:24px 26px}
+.row{display:flex;gap:18px}.row>*{flex:1}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.ft{margin-top:auto;font-size:14px;font-weight:700;display:flex;justify-content:space-between;align-items:center}
+.bl{position:absolute!important;border-radius:50%}
+.ojo{border-radius:18px;padding:18px 24px;font-size:17px;line-height:1.45;font-weight:700}
+.n{font-family:'Chunk',Georgia,serif;font-size:42px;line-height:1}
+@keyframes fl{0%,100%{transform:translate(0,0) rotate(0deg)}50%{transform:translate(-12px,-18px) rotate(10deg)}}
+.wb{position:absolute!important;animation:fl 10s ease-in-out infinite}
+@keyframes dr{from{background-position:0% 20%}to{background-position:100% 80%}}
+.band{position:relative;overflow:hidden;background-size:150% 150%!important;animation:dr 14s ease-in-out infinite alternate}
+@media (prefers-reduced-motion:reduce){.wb,.band,.pg *{animation:none!important}}
+li{font-size:17px;line-height:1.5;margin-bottom:6px}ul{margin:0;padding-left:22px}@keyframes up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes lf{from{opacity:0;transform:translateX(-24px)}to{opacity:1;transform:none}}
+@keyframes zi{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:none}}
+.pg>.c,.pg>.ojo,.pg>.row,.pg>.grid,.pg>p,.pg>div[style*="flex-direction"]{animation:up .8s cubic-bezier(.2,.7,.2,1) both}
+.pg>h2,.pg>.tag,.band .tag,.band h2{animation:zi .8s cubic-bezier(.2,.7,.2,1) both}
+.pg .c>*,.pg .ojo>*{animation:lf .65s cubic-bezier(.2,.7,.2,1) both}
+.pg li{animation:lf .6s cubic-bezier(.2,.7,.2,1) both}
+.pg .row>.c,.pg .grid>.c,.pg>div>.c{animation:up .7s cubic-bezier(.2,.7,.2,1) both}
+.pg>:nth-child(1){animation-delay:0.12s}.pg>:nth-child(2){animation-delay:0.24s}.pg>:nth-child(3){animation-delay:0.36s}.pg>:nth-child(4){animation-delay:0.48s}.pg>:nth-child(5){animation-delay:0.60s}.pg>:nth-child(6){animation-delay:0.72s}.pg>:nth-child(7){animation-delay:0.84s}.pg>:nth-child(8){animation-delay:0.96s}.pg>:nth-child(9){animation-delay:1.08s}.pg .c>:nth-child(1){animation-delay:0.59s}.pg .c>:nth-child(2){animation-delay:0.73s}.pg .c>:nth-child(3){animation-delay:0.87s}.pg .c>:nth-child(4){animation-delay:1.01s}.pg li:nth-child(1){animation-delay:0.82s}.pg li:nth-child(2){animation-delay:0.94s}.pg li:nth-child(3){animation-delay:1.06s}.pg li:nth-child(4){animation-delay:1.18s}.pg li:nth-child(5){animation-delay:1.30s}.pg li:nth-child(6){animation-delay:1.42s}.pg .row>.c:nth-child(1){animation-delay:0.45s}.pg .row>.c:nth-child(2){animation-delay:0.60s}.pg .grid>.c:nth-child(1){animation-delay:0.42s}.pg .grid>.c:nth-child(2){animation-delay:0.54s}.pg .grid>.c:nth-child(3){animation-delay:0.66s}.pg .grid>.c:nth-child(4){animation-delay:0.78s}.pg .grid>.c:nth-child(5){animation-delay:0.90s}.pg .grid>.c:nth-child(6){animation-delay:1.02s}.pg>div>.c:nth-child(1){animation-delay:0.40s}.pg>div>.c:nth-child(2){animation-delay:0.50s}.pg>div>.c:nth-child(3){animation-delay:0.60s}.pg>div>.c:nth-child(4){animation-delay:0.70s}.pg>div>.c:nth-child(5){animation-delay:0.80s}.pg>div>.c:nth-child(6){animation-delay:0.90s}.pg>div>.c:nth-child(7){animation-delay:1.00s}.band .tag{animation-delay:.1s}.band h2{animation-delay:.25s}
+.band>.tag,.band>h2{position:relative;z-index:1}
+.pg{gap:24px}
+.pg>.c,.pg>.row,.pg>.grid{flex:1 1 auto}
+.pg>.ojo{flex:.45 1 auto;display:flex;align-items:center}
+.pg .c{display:flex;flex-direction:column;justify-content:center}
+.grid{grid-auto-rows:1fr}
+.pg>div[style*="flex-direction"]{flex:1 1 auto}
+.pg>div[style*="flex-direction"]>.c{flex:1 1 auto}
+.pg .c p,.pg .c li,.pg>p{font-size:clamp(15px,2.4vw,19px)!important}
+.pg h3{font-size:clamp(20px,3.53vw,28px)!important}.grid h3{font-size:clamp(19px,3.15vw,25px)!important}
+.pg .row>.c>.n{font-size:clamp(42px,8vw,64px)!important}
+.ojo{background:#0070e2!important;color:#fff!important;gap:16px;font-size:18px!important}
+.ojo::before{content:"!";flex:none;width:36px;height:36px;border-radius:50%;background:#fff;color:#0070e2;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:20px}
+.band{flex:none!important}
+.pg .c[style*="align-items"]{flex-direction:row!important;justify-content:flex-start!important}
+.tag,.ft,.ojo,b,strong,[style*="font-weight:800"]{font-family:'Gotham',Montserrat,Arial,sans-serif;font-weight:900!important}
+.tag{letter-spacing:.1em}
+@media (max-width:620px){
+.pg{min-height:0!important;gap:16px!important}
+.row{flex-direction:column}
+.row>*{flex:none!important}
+.grid{grid-template-columns:1fr!important}
+.pg>div[style*="flex-direction"]>.c{margin-left:0!important}
+.tl>div[style*="grid"]{grid-template-columns:1fr 1fr!important;row-gap:24px}
+.tline{display:none}
+.pg .c.stk[style]{flex-direction:column!important;align-items:flex-start!important}
+.pg .row.mv>.c p{font-size:15px!important}
+.ft{font-size:13px}
+}
+@media (max-width:620px){.pg>svg.wb{display:none}.band svg.wb{top:-210px!important;right:-200px!important}}
+
+body{background:#e8eef3;font-family:'Gotham',Montserrat,Arial,sans-serif}
+.nav{max-width:794px;margin:18px auto 40px;padding:0 16px;display:flex;justify-content:space-between;align-items:center;gap:12px;box-sizing:border-box}
+.nav a{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 22px;border-radius:999px;background:#1b1b1b;color:#fff;font-family:'Gotham',Montserrat,Arial,sans-serif;font-weight:900;font-size:15px;text-decoration:none;letter-spacing:.04em;transition:transform .15s,background .15s}
+.nav a:hover,.nav a:focus-visible{background:#0070e2;transform:translateY(-2px);outline:none}
+.nav a.next{background:#00abe1;color:#1b1b1b}
+.nav a.next:hover,.nav a.next:focus-visible{background:#0070e2;color:#fff}
+.nav .sp{flex:1}
+.nav .cnt{font-family:'Gotham',Montserrat,Arial,sans-serif;font-weight:900;font-size:14px;color:#1b1b1b}
+a.chip{transition:transform .15s,filter .15s}
+a.chip:hover,a.chip:focus-visible{transform:translateX(6px);filter:brightness(1.06);outline:none}
+</style>
+<script src="assets/widget.js"></script></head>
+<body>
+<div class="pg" style="background:#fff;color:#1b1b1b"><div class="band" style="background:url(assets/patron-azul.png) 0 0/150% 150%;margin:calc(var(--pad)*-1) calc(var(--pad)*-1) 4px;padding:var(--pad) var(--pad) 40px;color:#fff"><svg class="wb" aria-hidden="true" viewBox="0 0 100 100" style="right:-66px;top:-130px;width:340px;height:340px;animation:none"><defs><filter id="w9" x="-40%" y="-40%" width="180%" height="180%"><feTurbulence type="fractalNoise" baseFrequency="0.02 0.03" numOctaves="1" seed="4"><animate attributeName="baseFrequency" dur="10s" values="0.02 0.03;0.034 0.02;0.02 0.03" repeatCount="indefinite"></animate></feTurbulence><feDisplacementMap in="SourceGraphic" scale="6"></feDisplacementMap></filter></defs><circle cx="50" cy="50" r="6" fill="none" stroke="#fff" stroke-width="1.5" filter="url(#w9)"><animate attributeName="r" values="6;46" dur="7s" begin="0s" repeatCount="indefinite"></animate><animate attributeName="opacity" values="0.3;0" dur="7s" begin="0s" repeatCount="indefinite"></animate></circle><circle cx="50" cy="50" r="6" fill="none" stroke="#fff" stroke-width="1.5" filter="url(#w9)"><animate attributeName="r" values="6;46" dur="7s" begin="2.3s" repeatCount="indefinite"></animate><animate attributeName="opacity" values="0.3;0" dur="7s" begin="2.3s" repeatCount="indefinite"></animate></circle><circle cx="50" cy="50" r="6" fill="none" stroke="#fff" stroke-width="1.5" filter="url(#w9)"><animate attributeName="r" values="6;46" dur="7s" begin="4.6s" repeatCount="indefinite"></animate><animate attributeName="opacity" values="0.3;0" dur="7s" begin="4.6s" repeatCount="indefinite"></animate></circle></svg><div class="tag" style="color:#fff">03 · 6 pilares que no se negocian</div><h2 style=";margin-top:10px">Nuestra cultura y valores</h2></div><div class="grid"><div class="c" style="background:#1b1b1b;color:#fff"><div style="display:flex;justify-content:space-between;align-items:center"><div class="n">1</div><span style="flex:none;width:56px;height:56px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="#0070e2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"></path><path d="M9 12l2 2 4-4"></path></svg></span></div><h3 style="margin:12px 0 8px">Honestidad e integridad</h3><p>Transparencia, rectitud y ética con la empresa, el equipo y el cliente.</p></div><div class="c" style="background:#00abe1;color:#1b1b1b"><div style="display:flex;justify-content:space-between;align-items:center"><div class="n">2</div><span style="flex:none;width:56px;height:56px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="#0070e2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"></path></svg></span></div><h3 style="margin:12px 0 8px">Calidad e inocuidad, sin excusas</h3><p>Receta respetada, insumos frescos e higiene absoluta.</p></div><div class="c" style="background:#00abe1;color:#1b1b1b"><div style="display:flex;justify-content:space-between;align-items:center"><div class="n">3</div><span style="flex:none;width:56px;height:56px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="#0070e2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"></circle><circle cx="17" cy="9" r="2.5"></circle><path d="M3 19c0-3 3-5 6-5s6 2 6 5"></path><path d="M15 14c3 0 6 2 6 5"></path></svg></span></div><h3 style="margin:12px 0 8px">Trabajo en equipo</h3><p>Aquí nadie trabaja solo: nos apoyamos entre áreas.</p></div><div class="c" style="background:#0070e2;color:#fff"><div style="display:flex;justify-content:space-between;align-items:center"><div class="n">4</div><span style="flex:none;width:56px;height:56px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="#0070e2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-8-5-8-11a4.5 4.5 0 018-3 4.5 4.5 0 018 3c0 6-8 11-8 11z"></path></svg></span></div><h3 style="margin:12px 0 8px">Pasión por el servicio</h3><p>Atención cálida, rápida y oportuna para cada cliente.</p></div><div class="c" style="background:#0070e2;color:#fff"><div style="display:flex;justify-content:space-between;align-items:center"><div class="n">5</div><span style="flex:none;width:56px;height:56px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="#0070e2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L5 14h6l-1 8 8-12h-6z"></path></svg></span></div><h3 style="margin:12px 0 8px">Proactividad y rapidez</h3><p>Nos anticipamos y actuamos con agilidad en horas pico.</p></div><div class="c" style="background:#1b1b1b;color:#fff"><div style="display:flex;justify-content:space-between;align-items:center"><div class="n">6</div><span style="flex:none;width:56px;height:56px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="#0070e2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg></span></div><h3 style="margin:12px 0 8px">Disciplina y responsabilidad</h3><p>Horarios, vestimenta, limpieza y normas al día.</p></div></div><div class="ft"><span style="display:flex;align-items:center;gap:10px"><img src="assets/logo-celeste.png" alt="Global Burger" style="width:38px;height:38px">Manual de Bienvenida</span><span>04</span></div></div>
+<nav class="nav" aria-label="Navegación del manual"><a href="pagina-3.html" aria-label="Página anterior">← Anterior</a><span class="cnt">4 / 8</span><a class="next" href="pagina-5.html" aria-label="Página siguiente">Siguiente →</a></nav>
+<script>document.addEventListener('keydown',function(e){var a=null;if(e.key==='ArrowRight')a=document.querySelector('.nav a.next');if(e.key==='ArrowLeft'){var l=document.querySelectorAll('.nav a');if(l.length>1&&!l[0].classList.contains('next'))a=l[0]}if(a)location.href=a.href});</script>
+</body>
+</html>

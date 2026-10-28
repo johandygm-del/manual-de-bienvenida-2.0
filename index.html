@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Manual de Bienvenida · Global Burger</title>
+<meta name="description" content="Manual de bienvenida para el equipo de Global Burger G&amp;M C.A.">
+<meta name="theme-color" content="#1b1b1b">
+<link rel="icon" type="image/png" href="assets/logo-celeste.png">
+<link rel="preload" href="assets/Chunk.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/Gotham.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/GothamBook.woff" as="font" type="font/woff" crossorigin>
+<style>@font-face{font-family:'Gotham';src:url(assets/GothamBook.woff) format('woff');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Chunk';src:url(assets/Chunk.woff) format('woff');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Gotham';src:url(assets/Gotham.woff) format('woff');font-weight:900;font-style:normal;font-display:swap}
+body{margin:0}
+.pg{--pad:clamp(20px,7.1vw,56px);width:100%;max-width:794px;margin:0 auto;min-height:1123px;box-sizing:border-box;padding:var(--pad);position:relative;overflow:hidden;font-family:'Gotham',Montserrat,Arial,sans-serif;font-weight:400;color:#1b1b1b;display:flex;flex-direction:column;gap:20px}
+.pg>*{position:relative}
+h1,h2,h3{font-family:'Chunk',Georgia,serif;font-weight:400;margin:0;line-height:1.1}
+h1{font-size:clamp(54px,16.6vw,132px);line-height:1}h2{font-size:clamp(30px,5.8vw,46px)}h3{font-size:clamp(19px,3.15vw,25px)}
+p{margin:0;font-size:18px;line-height:1.5}
+.tag{font-weight:800;font-size:15px;letter-spacing:.14em;text-transform:uppercase}
+.c{border-radius:22px;padding:24px 26px}
+.row{display:flex;gap:18px}.row>*{flex:1}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.ft{margin-top:auto;font-size:14px;font-weight:700;display:flex;justify-content:space-between;align-items:center}
+.bl{position:absolute!important;border-radius:50%}
+.ojo{border-radius:18px;padding:18px 24px;font-size:17px;line-height:1.45;font-weight:700}
+.n{font-family:'Chunk',Georgia,serif;font-size:42px;line-height:1}
+@keyframes fl{0%,100%{transform:translate(0,0) rotate(0deg)}50%{transform:translate(-12px,-18px) rotate(10deg)}}
+.wb{position:absolute!important;animation:fl 10s ease-in-out infinite}
+@keyframes dr{from{background-position:0% 20%}to{background-position:100% 80%}}
+.band{position:relative;overflow:hidden;background-size:150% 150%!important;animation:dr 14s ease-in-out infinite alternate}
+@media (prefers-reduced-motion:reduce){.wb,.band,.pg *{animation:none!important}}
+li{font-size:17px;line-height:1.5;margin-bottom:6px}ul{margin:0;padding-left:22px}@keyframes up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes lf{from{opacity:0;transform:translateX(-24px)}to{opacity:1;transform:none}}
+@keyframes zi{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:none}}
+.pg>.c,.pg>.ojo,.pg>.row,.pg>.grid,.pg>p,.pg>div[style*="flex-direction"]{animation:up .8s cubic-bezier(.2,.7,.2,1) both}
+.pg>h2,.pg>.tag,.band .tag,.band h2{animation:zi .8s cubic-bezier(.2,.7,.2,1) both}
+.pg .c>*,.pg .ojo>*{animation:lf .65s cubic-bezier(.2,.7,.2,1) both}
+.pg li{animation:lf .6s cubic-bezier(.2,.7,.2,1) both}
+.pg .row>.c,.pg .grid>.c,.pg>div>.c{animation:up .7s cubic-bezier(.2,.7,.2,1) both}
+.pg>:nth-child(1){animation-delay:0.12s}.pg>:nth-child(2){animation-delay:0.24s}.pg>:nth-child(3){animation-delay:0.36s}.pg>:nth-child(4){animation-delay:0.48s}.pg>:nth-child(5){animation-delay:0.60s}.pg>:nth-child(6){animation-delay:0.72s}.pg>:nth-child(7){animation-delay:0.84s}.pg>:nth-child(8){animation-delay:0.96s}.pg>:nth-child(9){animation-delay:1.08s}.pg .c>:nth-child(1){animation-delay:0.59s}.pg .c>:nth-child(2){animation-delay:0.73s}.pg .c>:nth-child(3){animation-delay:0.87s}.pg .c>:nth-child(4){animation-delay:1.01s}.pg li:nth-child(1){animation-delay:0.82s}.pg li:nth-child(2){animation-delay:0.94s}.pg li:nth-child(3){animation-delay:1.06s}.pg li:nth-child(4){animation-delay:1.18s}.pg li:nth-child(5){animation-delay:1.30s}.pg li:nth-child(6){animation-delay:1.42s}.pg .row>.c:nth-child(1){animation-delay:0.45s}.pg .row>.c:nth-child(2){animation-delay:0.60s}.pg .grid>.c:nth-child(1){animation-delay:0.42s}.pg .grid>.c:nth-child(2){animation-delay:0.54s}.pg .grid>.c:nth-child(3){animation-delay:0.66s}.pg .grid>.c:nth-child(4){animation-delay:0.78s}.pg .grid>.c:nth-child(5){animation-delay:0.90s}.pg .grid>.c:nth-child(6){animation-delay:1.02s}.pg>div>.c:nth-child(1){animation-delay:0.40s}.pg>div>.c:nth-child(2){animation-delay:0.50s}.pg>div>.c:nth-child(3){animation-delay:0.60s}.pg>div>.c:nth-child(4){animation-delay:0.70s}.pg>div>.c:nth-child(5){animation-delay:0.80s}.pg>div>.c:nth-child(6){animation-delay:0.90s}.pg>div>.c:nth-child(7){animation-delay:1.00s}.band .tag{animation-delay:.1s}.band h2{animation-delay:.25s}
+.band>.tag,.band>h2{position:relative;z-index:1}
+.tag,.ft,.ojo,b,strong,[style*="font-weight:800"]{font-family:'Gotham',Montserrat,Arial,sans-serif;font-weight:900!important}
+.tag{letter-spacing:.1em}
+@media (max-width:620px){
+.pg{min-height:0!important;gap:16px!important}
+.row{flex-direction:column}
+.row>*{flex:none!important}
+.grid{grid-template-columns:1fr!important}
+.pg>div[style*="flex-direction"]>.c{margin-left:0!important}
+.tl>div[style*="grid"]{grid-template-columns:1fr 1fr!important;row-gap:24px}
+.tline{display:none}
+.pg .c.stk[style]{flex-direction:column!important;align-items:flex-start!important}
+.pg .row.mv>.c p{font-size:15px!important}
+.ft{font-size:13px}
+.pg>svg.wb[style*="top:40px"]{top:-120px!important;right:-140px!important}
+}
+
+body{background:#e8eef3;font-family:'Gotham',Montserrat,Arial,sans-serif}
+.nav{max-width:794px;margin:18px auto 40px;padding:0 16px;display:flex;justify-content:space-between;align-items:center;gap:12px;box-sizing:border-box}
+.nav a{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 22px;border-radius:999px;background:#1b1b1b;color:#fff;font-family:'Gotham',Montserrat,Arial,sans-serif;font-weight:900;font-size:15px;text-decoration:none;letter-spacing:.04em;transition:transform .15s,background .15s}
+.nav a:hover,.nav a:focus-visible{background:#0070e2;transform:translateY(-2px);outline:none}
+.nav a.next{background:#00abe1;color:#1b1b1b}
+.nav a.next:hover,.nav a.next:focus-visible{background:#0070e2;color:#fff}
+.nav .sp{flex:1}
+.nav .cnt{font-family:'Gotham',Montserrat,Arial,sans-serif;font-weight:900;font-size:14px;color:#1b1b1b}
+a.chip{transition:transform .15s,filter .15s}
+a.chip:hover,a.chip:focus-visible{transform:translateX(6px);filter:brightness(1.06);outline:none}
+</style>
+<script src="assets/widget.js"></script></head>
+<body>
+<div class="pg" style="background:#1b1b1b;color:#fff"><img src="assets/foto-local.jpg" alt="Salón de Global Burger" style="position:absolute;left:0;top:0;width:100%;height:100%;object-fit:cover;object-position:50% 20%"><div style="position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(180deg,rgba(27,27,27,.45) 0%,rgba(27,27,27,.82) 55%,rgba(27,27,27,.92) 100%)"></div><svg class="wb" aria-hidden="true" viewBox="0 0 100 100" style="right:-6px;top:40px;width:420px;height:420px;animation:none"><defs><filter id="w12" x="-40%" y="-40%" width="180%" height="180%"><feTurbulence type="fractalNoise" baseFrequency="0.02 0.03" numOctaves="1" seed="7"><animate attributeName="baseFrequency" dur="8s" values="0.02 0.03;0.034 0.02;0.02 0.03" repeatCount="indefinite"></animate></feTurbulence><feDisplacementMap in="SourceGraphic" scale="6"></feDisplacementMap></filter></defs><circle cx="50" cy="50" r="6" fill="none" stroke="#00abe1" stroke-width="1.5" filter="url(#w12)"><animate attributeName="r" values="6;46" dur="7s" begin="0s" repeatCount="indefinite"></animate><animate attributeName="opacity" values="0.8;0" dur="7s" begin="0s" repeatCount="indefinite"></animate></circle><circle cx="50" cy="50" r="6" fill="none" stroke="#00abe1" stroke-width="1.5" filter="url(#w12)"><animate attributeName="r" values="6;46" dur="7s" begin="2.3s" repeatCount="indefinite"></animate><animate attributeName="opacity" values="0.8;0" dur="7s" begin="2.3s" repeatCount="indefinite"></animate></circle><circle cx="50" cy="50" r="6" fill="none" stroke="#00abe1" stroke-width="1.5" filter="url(#w12)"><animate attributeName="r" values="6;46" dur="7s" begin="4.6s" repeatCount="indefinite"></animate><animate attributeName="opacity" values="0.8;0" dur="7s" begin="4.6s" repeatCount="indefinite"></animate></circle></svg><svg class="wb" aria-hidden="true" viewBox="0 0 100 100" style="right:-186px;top:-150px;width:420px;height:420px;animation-duration:12s"><defs><filter id="w1" x="-40%" y="-40%" width="180%" height="180%"><feTurbulence type="fractalNoise" baseFrequency="0.02 0.03" numOctaves="1" seed="3"><animate attributeName="baseFrequency" dur="10s" values="0.02 0.03;0.034 0.02;0.02 0.03" repeatCount="indefinite"></animate></feTurbulence><feDisplacementMap in="SourceGraphic" scale="11"></feDisplacementMap></filter></defs><circle cx="50" cy="50" r="36" fill="#0070e2" filter="url(#w1)"></circle></svg><svg class="wb" aria-hidden="true" viewBox="0 0 100 100" style="right:-156px;top:640px;width:330px;height:330px;animation-duration:15s"><defs><filter id="w2" x="-40%" y="-40%" width="180%" height="180%"><feTurbulence type="fractalNoise" baseFrequency="0.02 0.03" numOctaves="1" seed="4"><animate attributeName="baseFrequency" dur="12s" values="0.02 0.03;0.034 0.02;0.02 0.03" repeatCount="indefinite"></animate></feTurbulence><feDisplacementMap in="SourceGraphic" scale="11"></feDisplacementMap></filter></defs><circle cx="50" cy="50" r="36" fill="#00abe1" filter="url(#w2)"></circle></svg><svg class="wb" aria-hidden="true" viewBox="0 0 100 100" style="left:-70px;top:960px;width:200px;height:200px;animation-duration:9s"><defs><filter id="w3" x="-40%" y="-40%" width="180%" height="180%"><feTurbulence type="fractalNoise" baseFrequency="0.02 0.03" numOctaves="1" seed="5"><animate attributeName="baseFrequency" dur="14s" values="0.02 0.03;0.034 0.02;0.02 0.03" repeatCount="indefinite"></animate></feTurbulence><feDisplacementMap in="SourceGraphic" scale="11"></feDisplacementMap></filter></defs><circle cx="50" cy="50" r="36" fill="#7000e2" filter="url(#w3)"></circle></svg><img src="assets/logo-celeste.png" alt="Logo Global Burger" style="width:130px;height:130px"><div class="tag" style="color:#00abe1;margin-top:14px">Guía de inducción y cultura</div><h1 style="color:#00abe1">Manual de <span style="color:#fff">Bienvenida</span></h1><p style="font-size:clamp(16px,2.7vw,21px);max-width:560px">Todo lo que necesitas para arrancar con el pie derecho en Global Burger G&amp;M C.A.</p><div style="display:flex;flex-direction:column;gap:8px;margin-top:10px;width:min(470px,100%)"><a class="c chip" href="pagina-2.html" style="text-decoration:none;background:#00abe1;color:#1b1b1b;padding:8px 20px;display:flex;gap:14px;align-items:center"><span class="n" style="font-size:26px;width:30px">1</span><span style="font-weight:800;font-size:18px">Bienvenida</span></a><a class="c chip" href="pagina-3.html" style="text-decoration:none;background:#fff;color:#1b1b1b;padding:8px 20px;display:flex;gap:14px;align-items:center"><span class="n" style="font-size:26px;width:30px">2</span><span style="font-weight:800;font-size:18px">Quiénes somos</span></a><a class="c chip" href="pagina-4.html" style="text-decoration:none;background:#0070e2;color:#fff;padding:8px 20px;display:flex;gap:14px;align-items:center"><span class="n" style="font-size:26px;width:30px">3</span><span style="font-weight:800;font-size:18px">Nuestra cultura y valores</span></a><a class="c chip" href="pagina-5.html" style="text-decoration:none;background:#00abe1;color:#1b1b1b;padding:8px 20px;display:flex;gap:14px;align-items:center"><span class="n" style="font-size:26px;width:30px">4</span><span style="font-weight:800;font-size:18px">Dónde estamos y organigrama</span></a><a class="c chip" href="pagina-6.html" style="text-decoration:none;background:#fff;color:#1b1b1b;padding:8px 20px;display:flex;gap:14px;align-items:center"><span class="n" style="font-size:26px;width:30px">5</span><span style="font-weight:800;font-size:18px">Tu primer día</span></a><a class="c chip" href="pagina-7.html" style="text-decoration:none;background:#0070e2;color:#fff;padding:8px 20px;display:flex;gap:14px;align-items:center"><span class="n" style="font-size:26px;width:30px">6</span><span style="font-weight:800;font-size:18px">Comunicación y políticas internas</span></a><a class="c chip" href="pagina-8.html" style="text-decoration:none;background:#00abe1;color:#1b1b1b;padding:8px 20px;display:flex;gap:14px;align-items:center"><span class="n" style="font-size:26px;width:30px">7</span><span style="font-weight:800;font-size:18px">Equipos y compromiso</span></a></div><div class="ft" style="display:none"><span style="display:flex;align-items:center;gap:10px"><img src="assets/logo-celeste.png" alt="Global Burger" style="width:38px;height:38px">Manual de Bienvenida</span><span>01</span></div></div>
+<nav class="nav" aria-label="Navegación del manual"><span class="sp"></span><span class="cnt">1 / 8</span><a class="next" href="pagina-2.html" aria-label="Página siguiente">Comenzar →</a></nav>
+<script>document.addEventListener('keydown',function(e){var a=null;if(e.key==='ArrowRight')a=document.querySelector('.nav a.next');if(e.key==='ArrowLeft'){var l=document.querySelectorAll('.nav a');if(l.length>1&&!l[0].classList.contains('next'))a=l[0]}if(a)location.href=a.href});</script>
+</body>
+</html>
